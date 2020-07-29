@@ -1,0 +1,23 @@
+{
+  "name": "colormini-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss src/main.css -o dist/main.css -w & live-server .",
+    "dev": "npm start",
+    "build": "postcss src/main.css -o dist/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.8.0",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.1"
+  }
+}

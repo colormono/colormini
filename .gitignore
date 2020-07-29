@@ -1,0 +1,26 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+npm-debug.log*
+package-lock.json
+.yarn.lock
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+/coverage
+
+# misc
+.vscode
+.idea
+.DS_Store
+.env.development.local
+.env.test.local
+.env.production.local
+*.css.git.cache
+.git.cache
+.cache/*
+
+# private files
+/_private

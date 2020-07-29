@@ -1,0 +1,15 @@
+@tailwind base;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap'); */
+
+@tailwind components;
+
+.banner {
+  @apply bg-blue-900 border border-blue-900 text-white px-4 py-3 relative;
+}
+
+.section--title {
+  @apply text-2xl uppercase font-bold text-black my-6;
+}
+
+@tailwind utilities;
