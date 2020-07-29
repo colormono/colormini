@@ -1,8 +1,10 @@
 {
-  "name": "colormini-ui",
+  "name": "@colormono/colormini-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:colormono/colormini-ui.git"
+  },
   "scripts": {
     "start": "postcss src/main.css -o dist/main.css -w & live-server .",
     "dev": "npm start",
